@@ -5,7 +5,7 @@ API which returns cusswords , can be used to check cusswords in bots etc.
 
 ```pip install -r requirements.txt```
 
-```py main.py```
+```py app.py```
 
 ## API Endpoints
 
@@ -20,3 +20,9 @@ Fork the repository , open **cuss_words.txt** and enter the words in new lines.
 Make a **Pull Request**.
 
 You can enter any number of variations but please don't repeat them.
+
+## Note
+
+```app.py``` needs to be restarted whenver there's a change in **cuss_words.txt** for it to update the api.
+
+If you have a solution , Open a Pull Request.
