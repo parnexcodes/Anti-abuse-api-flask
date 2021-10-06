@@ -19,3 +19,4 @@ gede
 memang
 scheisse
 gampang
+open vcs murah
