@@ -39,9 +39,9 @@ class check(Resource):
         parser.add_argument('q', type=str)
         args = parser.parse_args()
         if args['q'] in abuses['cuss_words']:
-            return jsonify('True')
+            return jsonify(True)
         else:
-            return jsonify('False')
+            return jsonify(False)
 
 
 # adding the defined resources along with their corresponding urls
